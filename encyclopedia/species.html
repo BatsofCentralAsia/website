@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="ru" data-root="../" data-path="encyclopedia/species.html">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Виды рукокрылых — Летучие мыши Центральной Азии</title>
+  <meta name="description" content="Выберите страну, найдите вид по названию или отфильтруйте виды по охранному статусу и риску столкновения с ветряками. Карточка даёт короткое знакомство, подробности — на странице вида.">
+  <meta name="theme-color" content="#162D39">
+  <link rel="stylesheet" href="../css/page.css">
+  <link rel="icon" href="../images/logo.svg" type="image/svg+xml">
+  <script>document.documentElement.classList.add('js')</script>
+  <script src="../js/site.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="site-header"></header>
+
+  <main id="main">
+    <div class="container species-explorer">
+      <nav class="breadcrumbs" aria-label="Навигационная цепочка">
+        <ol>
+          <li><a href="../index.html">Главная</a></li>
+          <li><a href="../encyclopedia.html">Летучие мыши Центральной Азии</a></li>
+          <li aria-current="page">Виды рукокрылых</li>
+        </ol>
+      </nav>
+      <p class="pill">Справочник видов</p>
+      <h1 class="explorer-title">Познакомьтесь с летучими мышами Центральной Азии</h1>
+      <p class="lead">Выберите страну, найдите вид по названию или отфильтруйте виды по охранному статусу и риску столкновения с ветряками. Карточка даёт короткое знакомство, подробности — на странице вида.</p>
+
+      <div class="species-filters">
+        <div class="filter-box">
+          <label class="species-search-wrap">
+            <span class="visually-hidden">Поиск вида</span>
+            <input class="catalog-search" style="width:100%;font:inherit;padding:.75rem;border-radius:.75rem;border:1px solid #aaa" type="search" placeholder="Например, Rhinolophus или подковонос">
+          </label>
+          <div class="chips" role="group" aria-label="Страна"><button class="chip" type="button" data-catalog-group="country" data-catalog-value="" aria-pressed="true">Все страны</button> <button class="chip" type="button" data-catalog-group="country" data-catalog-value="UZ" aria-pressed="false">Узбекистан</button> <button class="chip" type="button" data-catalog-group="country" data-catalog-value="KZ" aria-pressed="false">Казахстан</button> <button class="chip" type="button" data-catalog-group="country" data-catalog-value="KG" aria-pressed="false">Кыргызстан</button> <button class="chip" type="button" data-catalog-group="country" data-catalog-value="TJ" aria-pressed="false">Таджикистан</button> <button class="chip" type="button" data-catalog-group="country" data-catalog-value="TM" aria-pressed="false">Туркменистан</button></div>
+        </div>
+        <div class="filter-row">
+          <div class="chips" role="group" aria-label="Охранный статус"><button class="chip" type="button" data-catalog-group="status" data-catalog-value="" aria-pressed="true">Все виды</button> <button class="chip" type="button" data-catalog-group="status" data-catalog-value="in" aria-pressed="false">В Красной книге</button> <button class="chip" type="button" data-catalog-group="status" data-catalog-value="out" aria-pressed="false">Не включены</button></div>
+          <div class="chips" role="group" aria-label="Риск столкновения с ветряками"><span class="chips__label">Ветряки:</span> <button class="chip" type="button" data-catalog-group="wind" data-catalog-value="" aria-pressed="true">Любой риск</button> <button class="chip" type="button" data-catalog-group="wind" data-catalog-value="high" aria-pressed="false">Высокий</button> <button class="chip" type="button" data-catalog-group="wind" data-catalog-value="medium" aria-pressed="false">Средний</button> <button class="chip" type="button" data-catalog-group="wind" data-catalog-value="low" aria-pressed="false">Низкий</button></div>
+          <p class="catalog-count" aria-live="polite"></p>
+        </div>
+      </div>
+
+      <div class="species-grid">
+        <article class="species-card" data-countries="UZ KZ KG TJ TM" data-redbook="?" data-wind="unknown" data-search="Большой подковонос Rhinolophus ferrumequinum">
+          <div class="species-avatar" style="--c: #eee6d0"><img src="../images/bat.svg" alt=""></div>
+          
+          <span class="status-badge">IUCN: LC</span>
+          <p class="species-card__latin">Rhinolophus ferrumequinum</p>
+          <h2 class="species-card__name"><a href="1-rhinolophus-ferrumequinum.html">Большой подковонос</a></h2>
+          <p class="species-card__desc">Крупный подковонос. Кожистые выросты вокруг ноздрей участвуют в формировании эхолокационного сигнала.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Казахстан">KZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ KZ KG TJ TM" data-redbook="?" data-wind="unknown" data-search="Бухарский подковонос Rhinolophus bocharicus">
+          <div class="species-avatar" style="--c: #e6e4ef"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">IUCN: LC</span>
+          <p class="species-card__latin">Rhinolophus bocharicus</p>
+          <h2 class="species-card__name"><a href="2-rhinolophus-bocharicus.html">Бухарский подковонос</a></h2>
+          <p class="species-card__desc">Подковонос, распространённый в Центральной Азии и соседних регионах.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Казахстан">KZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ KZ KG TJ TM" data-redbook="?" data-wind="unknown" data-search="Малый подковонос Rhinolophus hipposideros">
+          <div class="species-avatar" style="--c: #f1ddd6"><img src="../images/bat.svg" alt=""></div>
+          
+          <span class="status-badge">IUCN: LC</span>
+          <p class="species-card__latin">Rhinolophus hipposideros</p>
+          <h2 class="species-card__name"><a href="3-rhinolophus-hipposideros.html">Малый подковонос</a></h2>
+          <p class="species-card__desc">Представитель семейства подковоносых с обширным ареалом, включающим Центральную Азию.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Казахстан">KZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ KG TJ" data-redbook="?" data-wind="unknown" data-search="Кыргызский подковонос Rhinolophus kirghisorum">
+          <div class="species-avatar" style="--c: #f1ddd6"><img src="../images/bat.svg" alt=""></div>
+          
+          <span class="status-badge">IUCN: NE</span>
+          <p class="species-card__latin">Rhinolophus kirghisorum</p>
+          <h2 class="species-card__name"><a href="4-rhinolophus-kirghisorum.html">Кыргызский подковонос</a></h2>
+          <p class="species-card__desc">Вид подковоносов, описанный в 2024 году. Типовой экземпляр происходит из Кыргызстана.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="TM" data-redbook="?" data-wind="unknown" data-search="Средиземный подковонос Rhinolophus blasii">
+          <div class="species-avatar" style="--c: #f1ddd6"><img src="../images/bat.svg" alt=""></div>
+          
+          <span class="status-badge">IUCN: LC</span>
+          <p class="species-card__latin">Rhinolophus blasii</p>
+          <h2 class="species-card__name"><a href="5-rhinolophus-blasii.html">Средиземный подковонос</a></h2>
+          <p class="species-card__desc">Известен также как подковонос Блазиуса. В качестве убежищ использует преимущественно пещеры.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="" data-redbook="?" data-wind="unknown" data-search="Южный подковонос Rhinolophus euryale">
+          <div class="species-avatar" style="--c: #f1ddd6"><img src="../images/bat.svg" alt=""></div>
+          
+          <span class="status-badge">IUCN: NT</span>
+          <p class="species-card__latin">Rhinolophus euryale</p>
+          <h2 class="species-card__name"><a href="6-rhinolophus-euryale.html">Южный подковонос</a></h2>
+          <p class="species-card__desc">Подковонос, распространённый преимущественно в Средиземноморье и прилегающих областях.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ KZ KG TJ TM" data-redbook="?" data-wind="unknown" data-search="Остроухая ночница Myotis blythii">
+          <div class="species-avatar" style="--c: #e3ead8"><img src="../images/bat.svg" alt=""></div>
+          
+          <span class="status-badge">IUCN: LC</span>
+          <p class="species-card__latin">Myotis blythii</p>
+          <h2 class="species-card__name"><a href="7-myotis-blythii.html">Остроухая ночница</a></h2>
+          <p class="species-card__desc">Представитель рода ночниц с широким распространением в Евразии, включая Центральную Азию.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Казахстан">KZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ TJ" data-redbook="?" data-wind="unknown" data-search="Бухарская ночница Myotis bucharensis">
+          <div class="species-avatar" style="--c: #e3ead8"><img src="../images/bat.svg" alt=""></div>
+          
+          <span class="status-badge">IUCN: DD</span>
+          <p class="species-card__latin">Myotis bucharensis</p>
+          <h2 class="species-card__name"><a href="8-myotis-bucharensis.html">Бухарская ночница</a></h2>
+          <p class="species-card__desc">Малоизученная ночница Центральной Азии. Для оценки риска исчезновения пока недостаточно данных.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Таджикистан">TJ</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="" data-redbook="?" data-wind="unknown" data-search="Длиннопалая ночница Myotis capaccinii">
+          <div class="species-avatar" style="--c: #e3ead8"><img src="../images/bat.svg" alt=""></div>
+          
+          <span class="status-badge">IUCN: VU</span>
+          <p class="species-card__latin">Myotis capaccinii</p>
+          <h2 class="species-card__name"><a href="9-myotis-capaccinii.html">Длиннопалая ночница</a></h2>
+          <p class="species-card__desc">Ночница, распространённая в Средиземноморье и части Юго-Западной Азии.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="TM" data-redbook="?" data-wind="unknown" data-search="Чулийская ночница Myotis tschuliensis">
+          <div class="species-avatar" style="--c: #e3ead8"><img src="../images/bat.svg" alt=""></div>
+          
+          <span class="status-badge">IUCN: NE</span>
+          <p class="species-card__latin">Myotis tschuliensis</p>
+          <h2 class="species-card__name"><a href="10-myotis-tschuliensis.html">Чулийская ночница</a></h2>
+          <p class="species-card__desc">Вид из группы ночницы Наттерера. Первоначально описан из Копетдага как Myotis nattereri tschuliensis.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ KZ KG TJ TM" data-redbook="?" data-wind="unknown" data-search="Трёхцветная ночница Myotis emarginatus">
+          <div class="species-avatar" style="--c: #e3ead8"><img src="../images/bat.svg" alt=""></div>
+          
+          <span class="status-badge">IUCN: LC</span>
+          <p class="species-card__latin">Myotis emarginatus</p>
+          <h2 class="species-card__name"><a href="11-myotis-emarginatus.html">Трёхцветная ночница</a></h2>
+          <p class="species-card__desc">Представитель рода ночниц, ареал которого охватывает часть Европы, Северной Африки и Азии.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Казахстан">KZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ KZ KG TJ TM" data-redbook="?" data-wind="unknown" data-search="Степная ночница Myotis davidii Myotis aurascens ночница Давида">
+          <div class="species-avatar" style="--c: #e3ead8"><img src="../images/bat.svg" alt=""></div>
+          
+          <span class="status-badge">IUCN: LC</span>
+          <p class="species-card__latin">Myotis davidii</p>
+          <h2 class="species-card__name"><a href="12-myotis-davidii.html">Степная ночница</a></h2>
+          <p class="species-card__desc">В принятой здесь трактовке Myotis davidii включает Myotis aurascens; границы этих таксонов остаются предметом обсуждения.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Казахстан">KZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ KZ KG TJ TM" data-redbook="?" data-wind="unknown" data-search="Горный кожан Hypsugo savii">
+          <div class="species-avatar" style="--c: #eee6d0"><img src="../images/bat.svg" alt=""></div>
+          
+          <span class="status-badge">IUCN: LC</span>
+          <p class="species-card__latin">Hypsugo savii</p>
+          <h2 class="species-card__name"><a href="13-hypsugo-savii.html">Горный кожан</a></h2>
+          <p class="species-card__desc">Известен также как кожан Сави. Широко распространён в Палеарктике.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Казахстан">KZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="" data-redbook="?" data-wind="unknown" data-search="Кожан Штуббе Hypsugo stubbei">
+          <div class="species-avatar" style="--c: #eee6d0"><img src="../images/bat.svg" alt=""></div>
+          
+          <span class="status-badge">IUCN: NE</span>
+          <p class="species-card__latin">Hypsugo stubbei</p>
+          <h2 class="species-card__name"><a href="14-hypsugo-stubbei.html">Кожан Штуббе</a></h2>
+          <p class="species-card__desc">Описан из Монголии в 2021 году как Hypsugo stubbei. Его положение относительно Hypsugo savii трактуется неодинаково.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ KZ KG TJ TM" data-redbook="?" data-wind="unknown" data-search="Поздний кожан Cnephaeus serotinus Eptesicus serotinus">
+          <div class="species-avatar" style="--c: #eee6d0"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">IUCN: LC</span>
+          <p class="species-card__latin">Cnephaeus serotinus</p>
+          <h2 class="species-card__name"><a href="15-cnephaeus-serotinus.html">Поздний кожан</a></h2>
+          <p class="species-card__desc">Широко распространённый евразийский кожан. В современной систематике отнесён к роду Cnephaeus; прежнее сочетание — Eptesicus serotinus.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Казахстан">KZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ KZ KG TJ TM" data-redbook="?" data-wind="unknown" data-search="Кожан Огнева Cnephaeus ognevi Eptesicus ognevi">
+          <div class="species-avatar" style="--c: #eee6d0"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">IUCN: LC</span>
+          <p class="species-card__latin">Cnephaeus ognevi</p>
+          <h2 class="species-card__name"><a href="16-cnephaeus-ognevi.html">Кожан Огнева</a></h2>
+          <p class="species-card__desc">Кожан, распространённый в Центральной Азии и соседних регионах. Ранее его включали в состав кожана Ботта; встречается также название Eptesicus ognevi.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Казахстан">KZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="KZ KG TJ" data-redbook="?" data-wind="unknown" data-search="Гобийский кожанок Cnephaeus gobiensis Eptesicus gobiensis">
+          <div class="species-avatar" style="--c: #eee6d0"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">IUCN: LC</span>
+          <p class="species-card__latin">Cnephaeus gobiensis</p>
+          <h2 class="species-card__name"><a href="17-cnephaeus-gobiensis.html">Гобийский кожанок</a></h2>
+          <p class="species-card__desc">Азиатский представитель кожанов, известный также как Eptesicus gobiensis. В трактовке MDD включает форму bobrinskoi.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Казахстан">KZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ KZ KG TJ TM" data-redbook="?" data-wind="unknown" data-search="Двухцветный кожан Vespertilio murinus">
+          <div class="species-avatar" style="--c: #eee6d0"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">IUCN: LC</span>
+          <p class="species-card__latin">Vespertilio murinus</p>
+          <h2 class="species-card__name"><a href="18-vespertilio-murinus.html">Двухцветный кожан</a></h2>
+          <p class="species-card__desc">Светлые кончики волос придают спине серебристый оттенок. Использует в том числе убежища в зданиях и способен к дальним сезонным перемещениям.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Казахстан">KZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ KZ KG TJ TM" data-redbook="?" data-wind="unknown" data-search="Нетопырь-карлик Pipistrellus pipistrellus">
+          <div class="species-avatar" style="--c: #eee6d0"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">IUCN: LC</span>
+          <p class="species-card__latin">Pipistrellus pipistrellus</p>
+          <h2 class="species-card__name"><a href="19-pipistrellus-pipistrellus.html">Нетопырь-карлик</a></h2>
+          <p class="species-card__desc">Представитель рода нетопырей с широким ареалом в Европе, Северной Африке и Азии, включая Центральную Азию.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Казахстан">KZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ KZ TM" data-redbook="?" data-wind="unknown" data-search="Нетопырь Куля Pipistrellus kuhlii">
+          <div class="species-avatar" style="--c: #eee6d0"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">IUCN: LC</span>
+          <p class="species-card__latin">Pipistrellus kuhlii</p>
+          <h2 class="species-card__name"><a href="20-pipistrellus-kuhlii.html">Нетопырь Куля</a></h2>
+          <p class="species-card__desc">Небольшая летучая мышь, часто встречающаяся в населённых пунктах. По свободному краю крыловой перепонки обычно проходит светлая кайма.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Казахстан">KZ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="KZ TM" data-redbook="?" data-wind="unknown" data-search="Лесной нетопырь Pipistrellus nathusii нетопырь Натузиуса">
+          <div class="species-avatar" style="--c: #eee6d0"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">IUCN: LC</span>
+          <p class="species-card__latin">Pipistrellus nathusii</p>
+          <h2 class="species-card__name"><a href="21-pipistrellus-nathusii.html">Лесной нетопырь</a></h2>
+          <p class="species-card__desc">Известен также как нетопырь Натузиуса. Связан с лесными местообитаниями и водоёмами, совершает дальние сезонные миграции.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Казахстан">KZ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ KZ KG TJ TM" data-redbook="?" data-wind="unknown" data-search="Рыжая вечерница Nyctalus noctula">
+          <div class="species-avatar" style="--c: #eee6d0"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">IUCN: LC</span>
+          <p class="species-card__latin">Nyctalus noctula</p>
+          <h2 class="species-card__name"><a href="22-nyctalus-noctula.html">Рыжая вечерница</a></h2>
+          <p class="species-card__desc">Вечерница с рыжевато-коричневой шерстью и быстрым полётом. Использует дупла деревьев, а также убежища в зданиях.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Казахстан">KZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="KZ TM" data-redbook="?" data-wind="unknown" data-search="Гигантская вечерница Nyctalus lasiopterus">
+          <div class="species-avatar" style="--c: #eee6d0"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">IUCN: VU</span>
+          <p class="species-card__latin">Nyctalus lasiopterus</p>
+          <h2 class="species-card__name"><a href="23-nyctalus-lasiopterus.html">Гигантская вечерница</a></h2>
+          <p class="species-card__desc">Представитель рода вечерниц, глобально оценённый как уязвимый. Сведения о присутствии в отдельных странах Центральной Азии требуют уточнения.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Казахстан">KZ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ KG TJ TM" data-redbook="?" data-wind="unknown" data-search="Каспийская широкоушка Barbastella caspica азиатская широкоушка">
+          <div class="species-avatar" style="--c: #eee6d0"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">IUCN: NE</span>
+          <p class="species-card__latin">Barbastella caspica</p>
+          <h2 class="species-card__name"><a href="24-barbastella-caspica.html">Каспийская широкоушка</a></h2>
+          <p class="species-card__desc">Известна также как азиатская широкоушка. Самостоятельность вида обоснована морфологическими и генетическими данными; в старой литературе использовалась более широкая трактовка Barbastella leucomelas.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ KZ KG TJ TM" data-redbook="?" data-wind="unknown" data-search="Белобрюхий стрелоух Otonycteris leucophaea туркестанский стрелоух">
+          <div class="species-avatar" style="--c: #eee6d0"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">IUCN: DD</span>
+          <p class="species-card__latin">Otonycteris leucophaea</p>
+          <h2 class="species-card__name"><a href="25-otonycteris-leucophaea.html">Белобрюхий стрелоух</a></h2>
+          <p class="species-card__desc">Летучая мышь с очень крупными ушами, не соприкасающимися на лбу. Выделена из состава Otonycteris hemprichii; данных для оценки риска исчезновения пока недостаточно.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Казахстан">KZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="KZ KG TJ" data-redbook="?" data-wind="unknown" data-search="Ушан Стрелкова Plecotus strelkovi">
+          <div class="species-avatar" style="--c: #eee6d0"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">IUCN: LC</span>
+          <p class="species-card__latin">Plecotus strelkovi</p>
+          <h2 class="species-card__name"><a href="26-plecotus-strelkovi.html">Ушан Стрелкова</a></h2>
+          <p class="species-card__desc">Ушан, описанный как самостоятельный вид в 2006 году. Населяет сухие и полусухие ландшафты, в том числе предгорья и среднегорья Центральной Азии.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Казахстан">KZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ KZ TM" data-redbook="?" data-wind="unknown" data-search="Туркменский ушан Plecotus turkmenicus">
+          <div class="species-avatar" style="--c: #eee6d0"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">IUCN: LC</span>
+          <p class="species-card__latin">Plecotus turkmenicus</p>
+          <h2 class="species-card__name"><a href="27-plecotus-turkmenicus.html">Туркменский ушан</a></h2>
+          <p class="species-card__desc">Светлоокрашенный ушан аридных ландшафтов. Использует пещеры, штольни, трещины в обрывах и колодцы.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Казахстан">KZ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="TM" data-redbook="?" data-wind="unknown" data-search="Бледный длиннокрыл Miniopterus pallidus">
+          <div class="species-avatar" style="--c: #eee6d0"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">IUCN: NT</span>
+          <p class="species-card__latin">Miniopterus pallidus</p>
+          <h2 class="species-card__name"><a href="28-miniopterus-pallidus.html">Бледный длиннокрыл</a></h2>
+          <p class="species-card__desc">Вид длиннокрылов, ранее рассматривавшийся в составе Miniopterus schreibersii. Относится к отдельному семейству длиннокрыловых — Miniopteridae.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ KZ KG TJ TM" data-redbook="?" data-wind="unknown" data-search="Широкоухий складчатогуб Tadarida teniotis">
+          <div class="species-avatar" style="--c: #eee6d0"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">IUCN: LC</span>
+          <p class="species-card__latin">Tadarida teniotis</p>
+          <h2 class="species-card__name"><a href="29-tadarida-teniotis.html">Широкоухий складчатогуб</a></h2>
+          <p class="species-card__desc">Представитель семейства складчатогубых — Molossidae. Его ареал охватывает Средиземноморье и часть Азии, включая Центральную Азию.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Казахстан">KZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+      </div>
+      <p class="catalog-empty" hidden>Ничего не найдено. Попробуйте изменить фильтры.</p>
+      <p class="note">В каталоге 29 видовых страниц. Статусы IUCN — глобальные и не равнозначны национальной охране. Национальные Красные книги и риск для ветряков пока не заполнены: используйте «Все виды» и «Любой риск». Страны указаны по источникам на страницах видов; спорные записи требуют уточнения.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+<script>
+(() => {
+  const cards = [...document.querySelectorAll('.species-card')];
+  const search = document.querySelector('.catalog-search');
+  const buttons = [...document.querySelectorAll('[data-catalog-group]')];
+  const filters = {country: '', status: '', wind: ''};
+  const normalise = value => value.toLocaleLowerCase('ru').replace(/ё/g, 'е');
+  function render() {
+    const terms = normalise(search.value).trim().split(/\s+/).filter(Boolean);
+    let count = 0;
+    cards.forEach(card => {
+      const d = card.dataset;
+      const redbook = (d.redbook || '').split(/\s+/).filter(Boolean);
+      const protectedHere = filters.country ? redbook.includes(filters.country) : redbook.length > 0;
+      const statusMatches = !filters.status || (d.redbook !== '?' && (filters.status === 'in' ? protectedHere : !protectedHere));
+      const show = terms.every(term => normalise(d.search || card.textContent).includes(term))
+        && (!filters.country || (d.countries || '').split(/\s+/).includes(filters.country))
+        && statusMatches && (!filters.wind || d.wind === filters.wind);
+      card.hidden = !show;
+      card.style.display = show ? '' : 'none';
+      if (show) count++;
+    });
+    document.querySelector('.catalog-count').textContent = `Показано: ${count} из ${cards.length}`;
+    document.querySelector('.catalog-empty').hidden = count !== 0;
+  }
+  search.addEventListener('input', render);
+  buttons.forEach(button => button.addEventListener('click', () => {
+    const group = button.dataset.catalogGroup;
+    filters[group] = button.dataset.catalogValue;
+    buttons.filter(b => b.dataset.catalogGroup === group).forEach(b => b.setAttribute('aria-pressed', String(b === button)));
+    render();
+  }));
+  render();
+})();
+</script>
+</body>
+</html>
