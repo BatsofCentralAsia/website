@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="ru" data-root="" data-path="myths.html">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Мифы — Летучие мыши Центральной Азии</title>
+  <meta name="description" content="Опасны ли летучие мыши? Разбираем самые распространённые мифы.">
+  <meta name="theme-color" content="#162D39">
+  <link rel="stylesheet" href="css/page.css">
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <script>document.documentElement.classList.add('js')</script>
+  <script src="js/site.js" defer></script>
+  <style>
+    /* Colours taken from index3: night blue and warm sand. */
+    :root { color-scheme: dark; }
+    body { margin: 0; background: #162D39; color: #FAFAFA; font-family: Arial, sans-serif; }
+    .myths-page { box-sizing: border-box; width: min(100%, 1040px); margin: 0 auto; padding: 64px 32px 80px; }
+    .myths-page .page-title { margin: 0 0 18px; color: #DCC8A8; font-size: clamp(30px, 4vw, 46px); line-height: 1.15; }
+    .myths-page .page-subtitle { max-width: 720px; margin: 0 0 32px; color: #FAFAFA; font-size: 18px; line-height: 1.6; }
+    .myths-list { display: block; margin: 0; padding: 0; background: none; border: 0; box-shadow: none; }
+    .myths-list__item { display: block; margin: 0; padding: 0; border: 0; border-radius: 0; background: transparent; box-shadow: none; }
+    .myths-list__item > summary { position: relative; display: block; list-style: none; cursor: pointer; margin: 0; padding: 4px 0 12px 30px; color: #DCC8A8; font-size: clamp(18px, 2.4vw, 23px); font-weight: 700; line-height: 1.45; text-decoration: underline; text-decoration-color: #DCC8A880; text-underline-offset: 5px; text-decoration-thickness: 1px; }
+    .myths-list__item > summary::-webkit-details-marker { display: none; }
+    .myths-list__item > summary::before { content: ''; position: absolute; left: 3px; top: calc(12px + .45em); width: 0; height: 0; border-top: 5px solid transparent; border-bottom: 5px solid transparent; border-left: 8px solid currentColor; transform-origin: 3px 5px; transition: transform .15s ease; }
+    .myths-list__item[open] > summary::before { transform: rotate(90deg); }
+    .myths-list__item > summary:hover { color: #FAFAFA; }
+    .myths-list__item > summary:focus-visible { outline: 2px solid #DCC8A8; outline-offset: 4px; border-radius: 2px; }
+    .myths-list__answer { max-width: 760px; margin: 0 0 14px 30px; padding: 2px 0 8px; color: #FAFAFA; font-size: 17px; line-height: 1.7; }
+    .myths-list__answer p { margin: 0 0 12px; }
+    .myths-list__answer p:last-child { margin-bottom: 0; }
+    .myths-list__answer .myths-list__verdict { color: #DCC8A8; font-weight: 700; }
+    .myths-list__answer a { color: #DCC8A8; text-underline-offset: 3px; }
+    @media (max-width: 600px) {
+      .myths-page { padding: 36px 20px 56px; }
+      .myths-page .page-subtitle { font-size: 16px; margin-bottom: 24px; }
+      .myths-list__answer { font-size: 16px; }
+    }
+    @media (prefers-reduced-motion: reduce) { .myths-list__item > summary::before { transition: none; } }
+  </style>
+</head>
+<body>
+  <header class="site-header" id="site-header"></header>
+
+  <main id="main">
+    <div class="container myths-page">
+      <h1 class="page-title">Летучие мыши и человек</h1>
+      <p class="page-subtitle">Вокруг летучих мышей витает огромное количество глупых и вредных мифов.</p>
+
+      <section class="myths-list" aria-label="Мифы о летучих мышах">
+      <details class="myths-list__item">
+        <summary>Летучие мыши пьют кровь</summary>
+        <div class="myths-list__answer">
+          <p class="myths-list__verdict">Миф.</p>
+          <p>Летучие мыши Центральной Азии не пьют кровь, они питаются насекомыми, а некоторые из них — другими членистоногими (пауками, сольпугами, скорпионами).</p>
+          <p>Из более 1500 видов кровь пьют только 3 вида, и все они живут далеко от нас — в Латинской Америке.</p>
+        </div>
+      </details>
+      <details class="myths-list__item">
+        <summary>Летучие мыши вцепляются в волосы</summary>
+        <div class="myths-list__answer">
+          <p class="myths-list__verdict">Миф.</p>
+          <p>Эхолокация позволяет летучим мышам облетать даже тонкие нити. Если летучая мышь пролетела рядом с вами, скорее всего, она ловила комара.</p>
+        </div>
+      </details>
+	  <details class="myths-list__item">
+        <summary>Летучие мыши — прекрасные питомцы, их можно держать дома</summary>
+        <div class="myths-list__answer">
+          <p class="myths-list__verdict">Миф.</p>
+          <p>Летучих мышей нельзя держать дома. Им требуется сложное питание, и даже в условиях реабилитационных центров летучие мыши в неволе живут в три раза меньше, чем на воле. Все виды рукокрылых охраняются законом.</p>
+          <p>Если вы нашли летучую мышь — <a href="help.html">вот что делать</a>.</p>
+        </div>
+      </details>
+	  <details class="myths-list__item">
+        <summary>Летучие мыши — грызуны</summary>
+        <div class="myths-list__answer">
+          <p class="myths-list__verdict">Миф.</p>
+          <p>Летучие мыши — отдельный отряд, рукокрылые (Chiroptera). По происхождению они ближе к хищным и копытным, чем к мышам, и ничего не грызут.</p>
+        </div>
+      </details>
+      <details class="myths-list__item">
+        <summary>Летучие мыши слепые</summary>
+        <div class="myths-list__answer">
+          <p class="myths-list__verdict">Миф.</p>
+          <p>Летучие мыши не слепые, они видят, но не очень хорошо и для ориентации в основном полагаются на эхолокацию.</p>
+        </div>
+      </details>
+      
+      <details class="myths-list__item">
+        <summary>Летучие мыши очень быстро размножаются</summary>
+        <div class="myths-list__answer">
+          <p class="myths-list__verdict">Миф.</p>
+          <p>Летучие мыши рожают всего одного или двух детёнышей в год, матери выкармливают их молоком и очень о них заботятся.</p>
+        </div>
+      </details>
+      <details class="myths-list__item">
+        <summary>Летучие мыши — вредители</summary>
+        <div class="myths-list__answer">
+          <p class="myths-list__verdict">Миф.</p>
+          <p>Наоборот: местные виды уничтожают огромное количество насекомых, в том числе комаров и вредителей садов и полей. Они не грызут провода и не портят постройки.</p>
+        </div>
+      </details>
+      <details class="myths-list__item">
+        <summary>От летучих мышей человеку легко чем-то заразиться</summary>
+        <div class="myths-list__answer">
+          <p class="myths-list__verdict">Миф.</p>
+          <p>Если не брать летучую мышь в руки, риск практически нулевой. Как и любые дикие млекопитающие, они могут переносить бешенство, поэтому трогать их голыми руками нельзя.</p>
+          <p>При укусе или царапине промойте рану водой с мылом и обратитесь к врачу.</p>
+        </div>
+      </details>
+      <details class="myths-list__item">
+        <summary>Летучие мыши могут нападать на скот</summary>
+        <div class="myths-list__answer">
+          <p class="myths-list__verdict">Миф.</p>
+          <p>Ни один вид Центральной Азии не нападает на животных. Кровососущие летучие мыши-вампиры живут только в Латинской Америке.</p>
+        </div>
+      </details>
+      <details class="myths-list__item">
+        <summary>Летучие мыши питаются фруктами</summary>
+        <div class="myths-list__answer">
+          <p class="myths-list__verdict">Миф.</p>
+          <p>Все виды Центральной Азии питаются насекомыми и другими членистоногими. Летучие мыши, которые едят плоды и нектар, живут в тропиках.</p>
+        </div>
+      </details>
+    </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+</body>
+</html>

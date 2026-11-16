@@ -1,0 +1,106 @@
+/* Стартовая страница (index.html): логотип слева, разделы-«образцы цвета» справа. */
+@import url("base.css");
+
+/* ---------- Верхняя строка ---------- */
+.topline {
+  width: 100%; max-width: var(--max); margin: 0 auto; padding: 36px 56px 0;
+  display: flex; align-items: center; gap: 28px;
+}
+.topline__motto { margin: 0; font-size: .72rem; white-space: nowrap; }
+.topline__motto span { margin: 0 .9em; letter-spacing: 0; }
+.topline__rule { flex: 1; min-width: 24px; height: 1px; background: var(--ochre); opacity: .6; }
+.topline__tools { display: flex; align-items: center; gap: 16px; }
+.topline__tools .search { flex: 0 1 190px; }
+.topline__tools .social { gap: 12px; }
+.topline__tools .social svg { width: 18px; height: 18px; }
+
+/* ---------- Доска: логотип | разделы ---------- */
+.board {
+  width: 100%; max-width: var(--max); margin: 0 auto; padding: 56px 56px 24px;
+  display: grid; grid-template-columns: minmax(0, 40fr) minmax(0, 60fr); align-content: start;
+}
+
+.brand { padding-right: 56px; text-align: center; display: flex; flex-direction: column; align-items: center; }
+.brand__logo { width: min(100%, 460px); }
+.brand__caps { margin: 8px 0 0; font-size: .74rem; }
+.brand__rule { display: block; width: 52%; height: 1px; margin-top: 40px; background: var(--ochre); opacity: .6; }
+
+.sections { padding-left: 56px; border-left: 1px solid var(--line); }
+.sections__head { display: flex; align-items: flex-start; justify-content: space-between; gap: 32px; margin-bottom: 36px; }
+.sections__title { margin: 0; font-family: var(--serif); font-weight: 700; font-size: clamp(2.4rem, 4.4vw, 4rem); line-height: 1.02; letter-spacing: -.01em; }
+.sections__caps { margin: 14px 0 0; font-size: .78rem; }
+.sections__note {
+  flex: 0 0 200px; margin: 6px 0 0; padding-bottom: 20px; border-bottom: 1px solid var(--ochre);
+  font-family: var(--serif); font-style: italic; font-size: 1.2rem; line-height: 1.35; color: var(--muted);
+}
+
+/* ---------- Строки-разделы ---------- */
+.swatches { list-style: none; margin: 0; padding: 0; }
+.swatch {
+  --ring: var(--sand);
+  display: grid; align-items: center; gap: 28px;
+  grid-template-columns: 116px minmax(0, 1.2fr) minmax(0, 1fr);
+  padding: 12px 14px; margin: 0 -14px; border-radius: 70px 18px 18px 70px;
+  color: var(--text); text-decoration: none; transition: background .25s;
+}
+.swatch:hover, .swatch:focus-visible { background: rgba(127, 168, 200, .12); }
+
+.swatch__circle {
+  width: 116px; height: 116px; border-radius: 50%; overflow: hidden; position: relative;
+  background: var(--ring);
+  box-shadow: 0 0 0 2px var(--ring), 0 0 0 6px rgba(220, 200, 168, .12), 0 8px 20px rgba(0, 0, 0, .25);
+}
+.swatch__circle img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s ease; }
+.swatch__circle::after { content: ""; position: absolute; inset: 0; background: var(--ring); opacity: .22; transition: opacity .3s; }
+.swatch:hover .swatch__circle img { transform: scale(1.08); }
+.swatch:hover .swatch__circle::after { opacity: 0; }
+
+.swatch__name { display: flex; flex-direction: column; }
+.swatch__name strong { font-family: var(--serif); font-weight: 700; font-size: 1.55rem; line-height: 1.15; transition: color .2s; }
+.swatch:hover .swatch__name strong { color: var(--sand); }
+.swatch__code { margin-top: 4px; font-size: .74rem; letter-spacing: .2em; }
+.swatch__role { margin-top: 2px; font-size: .9rem; color: var(--muted); letter-spacing: .03em; }
+.swatch__desc { padding-left: 28px; border-left: 1px solid var(--line); font-size: .92rem; line-height: 1.6; color: var(--muted); }
+
+@media (prefers-reduced-motion: reduce) {
+  .swatch__circle img { transition: none; }
+}
+
+/* ---------- Узкий десктоп: девиз уходит на отдельную строку ---------- */
+@media (max-width: 1250px) {
+  .topline { flex-wrap: wrap; row-gap: 14px; }
+  .topline__motto { order: 1; }
+  .topline__rule { order: 2; }
+  .topline__tools { order: 0; width: 100%; justify-content: flex-end; }
+}
+
+/* ---------- Планшет ---------- */
+@media (max-width: 1100px) {
+  .swatch { grid-template-columns: 96px minmax(0, 1fr); gap: 8px 24px; }
+  .swatch__circle { width: 96px; height: 96px; grid-row: span 2; }
+  .swatch__desc { padding-left: 0; border-left: 0; }
+}
+
+/* ---------- Телефон ---------- */
+@media (max-width: 860px) {
+  .topline { padding: 16px 16px 0; gap: 12px 16px; }
+  .topline__motto { font-size: .6rem; letter-spacing: .2em; white-space: normal; }
+  .topline__rule { display: none; }
+  .topline__tools { flex-wrap: wrap; justify-content: space-between; gap: 12px; }
+  .topline__tools .search { order: 3; flex: 1 1 100%; height: 38px; }
+  .topline__tools .search__icon { top: 11px; }
+  .topline__tools .contact-btn { order: 4; flex: 1 1 100%; padding: 10px; }
+
+  .board { grid-template-columns: 1fr; padding: 32px 16px 16px; }
+  .brand { padding-right: 0; }
+  .brand__logo { width: min(70%, 300px); }
+  .brand__rule { margin: 28px 0 32px; }
+  .sections { padding-left: 0; border-left: 0; }
+  .sections__head { flex-direction: column; gap: 16px; margin-bottom: 20px; }
+  .sections__note { flex-basis: auto; padding-bottom: 12px; }
+  .swatch { grid-template-columns: 72px minmax(0, 1fr); gap: 4px 18px; padding: 10px; margin: 0 -10px; }
+  .swatch__circle { width: 72px; height: 72px; box-shadow: 0 0 0 2px var(--ring), 0 0 0 5px rgba(220, 200, 168, .12); }
+  .swatch__name strong { font-size: 1.35rem; }
+  .swatch__code { font-size: .64rem; }
+  .swatch__desc { font-size: .86rem; }
+}

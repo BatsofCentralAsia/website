@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="ru" data-root="../" data-path="encyclopedia/species.html">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Виды рукокрылых — Летучие мыши Центральной Азии</title>
+  <meta name="description" content="Выберите страну, найдите вид по названию или отфильтруйте виды по охранному статусу и риску столкновения с ветряками. Карточка даёт короткое знакомство, подробности — на странице вида.">
+  <meta name="theme-color" content="#162D39">
+  <link rel="stylesheet" href="../css/page.css">
+  <link rel="icon" href="../images/logo.svg" type="image/svg+xml">
+  <script>document.documentElement.classList.add('js')</script>
+  <script src="../js/site.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="site-header"></header>
+
+  <main id="main">
+    <div class="container species-explorer">
+      <nav class="breadcrumbs" aria-label="Навигационная цепочка">
+        <ol>
+          <li><a href="../index.html">Главная</a></li>
+          <li><a href="../encyclopedia.html">Летучие мыши Центральной Азии</a></li>
+          <li aria-current="page">Виды рукокрылых</li>
+        </ol>
+      </nav>
+      <p class="pill">Справочник видов</p>
+      <h1 class="explorer-title">Познакомьтесь с летучими мышами Центральной Азии</h1>
+      <p class="lead">Выберите страну, найдите вид по названию или отфильтруйте виды по охранному статусу и риску столкновения с ветряками. Карточка даёт короткое знакомство, подробности — на странице вида.</p>
+
+      <div class="species-filters">
+        <div class="filter-box">
+          <label class="species-search-wrap">
+            <span class="visually-hidden">Поиск вида</span>
+            <input class="species-search" type="search" placeholder="Например, Rhinolophus или подковонос">
+          </label>
+          <div class="chips" role="group" aria-label="Страна"><button class="chip" type="button" data-group="country" data-value="" aria-pressed="true">Все страны</button> <button class="chip" type="button" data-group="country" data-value="UZ" aria-pressed="false">Узбекистан</button> <button class="chip" type="button" data-group="country" data-value="KZ" aria-pressed="false">Казахстан</button> <button class="chip" type="button" data-group="country" data-value="KG" aria-pressed="false">Кыргызстан</button> <button class="chip" type="button" data-group="country" data-value="TJ" aria-pressed="false">Таджикистан</button> <button class="chip" type="button" data-group="country" data-value="TM" aria-pressed="false">Туркменистан</button></div>
+        </div>
+        <div class="filter-row">
+          <div class="chips" role="group" aria-label="Охранный статус"><button class="chip" type="button" data-group="status" data-value="" aria-pressed="true">Все виды</button> <button class="chip" type="button" data-group="status" data-value="in" aria-pressed="false">В Красной книге</button> <button class="chip" type="button" data-group="status" data-value="out" aria-pressed="false">Не включены</button></div>
+          <div class="chips" role="group" aria-label="Риск столкновения с ветряками"><span class="chips__label">Ветряки:</span> <button class="chip" type="button" data-group="wind" data-value="" aria-pressed="true">Любой риск</button> <button class="chip" type="button" data-group="wind" data-value="high" aria-pressed="false">Высокий</button> <button class="chip" type="button" data-group="wind" data-value="medium" aria-pressed="false">Средний</button> <button class="chip" type="button" data-group="wind" data-value="low" aria-pressed="false">Низкий</button></div>
+          <p class="species-count" aria-live="polite"></p>
+        </div>
+      </div>
+
+      <div class="species-grid">
+        <article class="species-card" data-countries="UZ KZ KG TJ TM" data-redbook="KZ" data-wind="low" data-search="Rhinolophus ferrumequinum Greater horseshoe bat Большой подковонос">
+          <div class="species-avatar" style="--c: #eee6d0"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">Нац. охрана</span>
+          <p class="species-card__latin">Rhinolophus ferrumequinum</p>
+          <h2 class="species-card__name"><a href="1-rhinolophus-ferrumequinum.html">Большой подковонос</a></h2>
+          <p class="species-card__desc">Крупный подковонос с кожистым выростом-«подковой» на носу. Зимует в пещерах и штольнях.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Казахстан">KZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+		<article class="species-card" data-countries="UZ KG TJ TM" data-redbook="" data-wind="low" data-search="Rhinolophus bocharicus Бухарский подковонос Bokhara horseshoe bat">
+          <div class="species-avatar" style="--c: #e6e4ef"><img src="../images/bat.svg" alt=""></div>
+          <p class="species-card__latin">Rhinolophus bocharicus</p>
+          <h2 class="species-card__name"><a href="2-rhinolophus-bocharicus.html">Бухарский подковонос</a></h2>
+          <p class="species-card__desc">Среднеазиатский подковонос предгорий и низкогорий. Живёт в пещерах и подземных выработках.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ KG TJ TM" data-redbook="UZ" data-wind="low" data-search="Малый подковонос Lesser horseshoe bat Rhinolophus hipposideros">
+          <div class="species-avatar" style="--c: #f1ddd6"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">Нац. охрана</span>
+          <p class="species-card__latin">Rhinolophus hipposideros</p>
+          <h2 class="species-card__name"><a href="3-rhinolophus-hipposideros.html">Малый подковонос</a></h2>
+          <p class="species-card__desc">Небольшой подковонос, часто использующий пещеры и постройки. Чувствителен к беспокойству в убежищах и изменениям ландшафта.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ KG TJ TM" data-redbook="UZ" data-wind="low" data-search="Малый подковонос Lesser horseshoe bat Rhinolophus hipposideros">
+          <div class="species-avatar" style="--c: #f1ddd6"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">Нац. охрана</span>
+          <p class="species-card__latin">Rhinolophus kirghisorum</p>
+          <h2 class="species-card__name"><a href="4-rhinolophus-kirghisorum.html">Кыргызский подковонос</a></h2>
+          <p class="species-card__desc">Небольшой подковонос, часто использующий пещеры и постройки. Чувствителен к беспокойству в убежищах и изменениям ландшафта.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ KG TJ TM" data-redbook="UZ" data-wind="low" data-search="Малый подковонос Lesser horseshoe bat Rhinolophus hipposideros">
+          <div class="species-avatar" style="--c: #f1ddd6"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">Нац. охрана</span>
+          <p class="species-card__latin">Rhinolophus blasii</p>
+          <h2 class="species-card__name"><a href="5-rhinolophus-blasii.html">Средиземный подковонос</a></h2>
+          <p class="species-card__desc">Небольшой подковонос, часто использующий пещеры и постройки. Чувствителен к беспокойству в убежищах и изменениям ландшафта.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ KG TJ TM" data-redbook="UZ" data-wind="low" data-search="Малый подковонос Lesser horseshoe bat Rhinolophus hipposideros">
+          <div class="species-avatar" style="--c: #f1ddd6"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">Нац. охрана</span>
+          <p class="species-card__latin">Rhinolophus euryale</p>
+          <h2 class="species-card__name"><a href="6-rhinolophus-euryale.html">Южный подковонос</a></h2>
+          <p class="species-card__desc">Небольшой подковонос, часто использующий пещеры и постройки. Чувствителен к беспокойству в убежищах и изменениям ландшафта.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+		
+		<article class="species-card" data-countries="UZ TJ TM" data-redbook="UZ" data-wind="low" data-search="Bukhara myotis Myotis bucharensis Бухарская ночница">
+          <div class="species-avatar" style="--c: #e3ead8"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">Нац. охрана</span>
+          <p class="species-card__latin">Myotis blythii</p>
+          <h2 class="species-card__name"><a href="7-myotis-blythii.html">Остроухая ночница</a></h2>
+          <p class="species-card__desc">Редко регистрируемая центральноазиатская ночница. Данные о распространении, экологии и эхолокации всё ещё ограничены.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+		
+        <article class="species-card" data-countries="UZ TJ TM" data-redbook="UZ" data-wind="low" data-search="Bukhara myotis Myotis bucharensis Бухарская ночница">
+          <div class="species-avatar" style="--c: #e3ead8"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">Нац. охрана</span>
+          <p class="species-card__latin">Myotis bucharensis</p>
+          <h2 class="species-card__name"><a href="8-myotis-bucharensis.html">Бухарская ночница</a></h2>
+          <p class="species-card__desc">Редко регистрируемая центральноазиатская ночница. Данные о распространении, экологии и эхолокации всё ещё ограничены.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+		<article class="species-card" data-countries="UZ TJ TM" data-redbook="UZ" data-wind="low" data-search="Bukhara myotis Myotis bucharensis Бухарская ночница">
+          <div class="species-avatar" style="--c: #e3ead8"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">Нац. охрана</span>
+          <p class="species-card__latin">Myotis capaccinii</p>
+          <h2 class="species-card__name"><a href="9-myotis-capaccinii.html">Длиннопалая ночница</a></h2>
+          <p class="species-card__desc">Редко регистрируемая центральноазиатская ночница. Данные о распространении, экологии и эхолокации всё ещё ограничены.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+		<article class="species-card" data-countries="UZ TJ TM" data-redbook="UZ" data-wind="low" data-search="Bukhara myotis Myotis bucharensis Бухарская ночница">
+          <div class="species-avatar" style="--c: #e3ead8"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">Нац. охрана</span>
+          <p class="species-card__latin">Myotis tschulensis</p>
+          <h2 class="species-card__name"><a href="10-myotis-tschuliensis.html">Чу-илийская ночница</a></h2>
+          <p class="species-card__desc">Редко регистрируемая центральноазиатская ночница. Данные о распространении, экологии и эхолокации всё ещё ограничены.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+		<article class="species-card" data-countries="UZ TJ TM" data-redbook="UZ" data-wind="low" data-search="Bukhara myotis Myotis bucharensis Бухарская ночница">
+          <div class="species-avatar" style="--c: #e3ead8"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">Нац. охрана</span>
+          <p class="species-card__latin">Myotis emarginatus</p>
+          <h2 class="species-card__name"><a href="11-myotis-emarginatus.html">Трехцветная ночница</a></h2>
+          <p class="species-card__desc">Редко регистрируемая центральноазиатская ночница. Данные о распространении, экологии и эхолокации всё ещё ограничены.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+		<article class="species-card" data-countries="UZ TJ TM" data-redbook="UZ" data-wind="low" data-search="Bukhara myotis Myotis bucharensis Бухарская ночница">
+          <div class="species-avatar" style="--c: #e3ead8"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">Нац. охрана</span>
+          <p class="species-card__latin">Myotis davidii</p>
+          <h2 class="species-card__name"><a href="12-myotis-davidii.html">Степная ночница</a></h2>
+          <p class="species-card__desc">Редко регистрируемая центральноазиатская ночница. Данные о распространении, экологии и эхолокации всё ещё ограничены.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="KZ KG TJ TM" data-redbook="KZ" data-wind="low" data-search="Asian barbastelle Азиатская широкоушка Barbastella leucomelas">
+          <div class="species-avatar" style="--c: #eee6d0"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">Нац. охрана</span>
+          <p class="species-card__latin">Barbastella caspica</p>
+          <h2 class="species-card__name"><a href="barbastella-caspica.html">Азиатская широкоушка</a></h2>
+          <p class="species-card__desc">Необычный вид с короткой мордой и широкими ушами. Встречается локально, поэтому сведения о находках особенно ценны для картирования.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Казахстан">KZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ KZ KG TJ TM" data-redbook="UZ KZ" data-wind="low" data-search="Белобрюхий стрелоух Otonycteris leucophaea Turkestani long-eared bat">
+          <div class="species-avatar" style="--c: #f1ddd6"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">Нац. охрана</span>
+          <p class="species-card__latin">Otonycteris leucophaea</p>
+          <h2 class="species-card__name"><a href="otonycteris-leucophaea.html">Белобрюхий стрелоух</a></h2>
+          <p class="species-card__desc">Крупный пустынный и полупустынный вид с очень большими ушами. Охотится в том числе на крупных наземных членистоногих.</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Казахстан">KZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ KZ KG TJ TM" data-redbook="UZ" data-wind="high" data-search="European free-tailed bat Tadarida teniotis Широкоухий складчатогуб">
+          <div class="species-avatar" style="--c: #e6e4ef"><img src="../images/bat.svg" alt=""></div>
+          <span class="status-badge">Нац. охрана</span>
+          <p class="species-card__latin">Tadarida teniotis</p>
+          <h2 class="species-card__name"><a href="tadarida-teniotis.html">Широкоухий складчатогуб</a></h2>
+          <p class="species-card__desc">Крупная быстрая летучая мышь, охотится высоко в небе. Живёт в трещинах высоких скал.</p>
+          <p class="species-card__wind">Ветряки: высокий риск</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Казахстан">KZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ KZ KG TJ TM" data-redbook="" data-wind="high" data-search="Common noctule Рыжая вечерница Nyctalus noctula">
+          <div class="species-avatar" style="--c: #e3ead8"><img src="../images/bat.svg" alt=""></div>
+          <p class="species-card__latin">Nyctalus noctula</p>
+          <h2 class="species-card__name"><a href="nyctalus-noctula.html">Рыжая вечерница</a></h2>
+          <p class="species-card__desc">Крупная вечерница, вылетает рано вечером и охотится высоко над кронами. Одна из частых жертв ветряных электростанций.</p>
+          <p class="species-card__wind">Ветряки: высокий риск</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Казахстан">KZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ KZ KG TJ TM" data-redbook="" data-wind="high" data-search="Pipistrellus kuhlii Kuhl&#x27;s pipistrelle Нетопырь Куля">
+          <div class="species-avatar" style="--c: #eee6d0"><img src="../images/bat.svg" alt=""></div>
+          <p class="species-card__latin">Pipistrellus kuhlii</p>
+          <h2 class="species-card__name"><a href="pipistrellus-kuhlii.html">Нетопырь Куля</a></h2>
+          <p class="species-card__desc">Маленькая летучая мышь, частый сосед человека в городах. Охотится у фонарей на мелких насекомых.</p>
+          <p class="species-card__wind">Ветряки: высокий риск</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Казахстан">KZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+        <article class="species-card" data-countries="UZ KZ KG TJ TM" data-redbook="" data-wind="high" data-search="Parti-coloured bat Двухцветный кожан Vespertilio murinus">
+          <div class="species-avatar" style="--c: #f1ddd6"><img src="../images/bat.svg" alt=""></div>
+          <p class="species-card__latin">Vespertilio murinus</p>
+          <h2 class="species-card__name"><a href="vespertilio-murinus.html">Двухцветный кожан</a></h2>
+          <p class="species-card__desc">Кожан с контрастной двухцветной окраской спины. Совершает дальние миграции и часто гибнет на ветряках.</p>
+          <p class="species-card__wind">Ветряки: высокий риск</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Казахстан">KZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+		        <article class="species-card" data-countries="UZ KZ KG TJ TM" data-redbook="" data-wind="high" data-search="Parti-coloured bat Двухцветный кожан Vespertilio murinus">
+          <div class="species-avatar" style="--c: #f1ddd6"><img src="../images/bat.svg" alt=""></div>
+          <p class="species-card__latin">Vespertilio murinus</p>
+          <h2 class="species-card__name"><a href="vespertilio-murinus.html">Двухцветный кожан</a></h2>
+          <p class="species-card__desc">Кожан с контрастной двухцветной окраской спины. Совершает дальние миграции и часто гибнет на ветряках.</p>
+          <p class="species-card__wind">Ветряки: высокий риск</p>
+          <div class="species-card__foot">
+            <ul class="country-tags"><li title="Узбекистан">UZ</li><li title="Казахстан">KZ</li><li title="Кыргызстан">KG</li><li title="Таджикистан">TJ</li><li title="Туркменистан">TM</li></ul>
+            <span class="species-card__more" aria-hidden="true">Подробнее</span>
+          </div>
+        </article>
+      </div>
+      <p class="species-empty" hidden>Ничего не найдено. Попробуйте изменить фильтры.</p>
+      <p class="note">Демонстрационный набор: 10 видов из 40. Данные черновые и требуют проверки специалистом.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+</body>
+</html>
